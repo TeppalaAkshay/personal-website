@@ -1,0 +1,57 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero h1 span {
+    background: -webkit-linear-gradient(45deg, #fff, #ffde59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    font-size: 2rem;
+    margin: 0 15px;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffde59;
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

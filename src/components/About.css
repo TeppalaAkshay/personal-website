@@ -1,0 +1,55 @@
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.about img {
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about img:hover {
+  transform: scale(1.1);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  background-color: #4facfe;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
