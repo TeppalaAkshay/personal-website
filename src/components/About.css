@@ -1,60 +1,93 @@
-/* About Section */
 .about {
-  padding: 60px 20px;
-  background: linear-gradient(
+    background: linear-gradient(
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
       ), 
       linear-gradient(31deg, #4facfe, #00f2fe);
-    color: white;
-  text-align: center;
-}
+    color: #ccd6f6;
+    padding: 50px 20px;
+    text-align: left;
+    
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #64ffda;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .about span {
+    color: #64ffda;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    
+    gap: 0px;
+  }
+  
+  .about-details {
+    flex: 1;
+  }
+  
+  .about-details p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .about-details a {
+    color: #64ffda;
+    text-decoration: none;
+  }
+  
+  .about-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .technologies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    color: #333;
+    
+  }
+  
+  .technologies li {
+    list-style: none;
+    font-size: 1rem;
 
-.about h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #333;
+  }
+  
+  .about-image {
+    text-align: center;
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    
+    margin-right: 200px;
+    margin-top: 0px;
 }
+  
+  
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #64ffda;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .profile-picture:hover {
+    filter: grayscale(0%);
+  }
+  
 
-.about p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 40px;
-  color: #444;
-}
-
-.about img {
-  border-radius: 50%;
-  margin-top: 30px;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.about img:hover {
-  transform: scale(1.1);
-}
-
-.skills {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.skill {
-  background-color: #4facfe;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-weight: bold;
-  font-size: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
+  
