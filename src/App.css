@@ -22,7 +22,7 @@ h1, h2, h3 {
 /* Buttons */
 button, .btn {
   padding: 12px 24px;
-  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
   color: white;
   border: none;
   border-radius: 25px;
