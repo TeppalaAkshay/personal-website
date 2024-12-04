@@ -6,8 +6,10 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="container">
         <h2>Get In Touch</h2>
-        <a href="mailto:your-email@example.com">GET IN TOUCH</a>
-        <p>Phone: +1 234-567-8900</p>
+        <p>My inbox is always open. Whether you have a question or just want to say </p> 
+        <p>hello, I'll try my best to get back to you!</p>
+           <p> Feel free to mail me about any relevant job updates.</p>
+        <button><a href="mailto:atepp746@students.campbellsville.edu">GET IN TOUCH WITH ME</a></button>
       </div>
     </section>
   );

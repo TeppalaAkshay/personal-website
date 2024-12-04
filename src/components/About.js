@@ -1,4 +1,3 @@
-// src/components/About.js
 import React from "react";
 import MyResume from "./Myresume";
 import "./About.css";
@@ -33,7 +32,7 @@ const About = () => {
             <li>AWS</li>
             <li>Spring boot</li>
           </ul>
-          <MyResume/>
+          <div className="resume"><MyResume/></div>
         </div>
 
         <div className="about-image">

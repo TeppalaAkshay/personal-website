@@ -11,7 +11,7 @@ const MyResume = () => {
 
 
 return (
-    <div>
+    <div >
         <button onClick={handleClick}>View My Resume</button>
         
     </div>

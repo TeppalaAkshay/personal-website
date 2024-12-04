@@ -3,7 +3,7 @@
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
       ), 
-      linear-gradient(160deg, #4facfe, #00f2fe);
+      linear-gradient(16deg, #4facfe, #00f2fe);
     color: white;
   padding: 60px 20px;
   text-align: center;
@@ -21,10 +21,11 @@
   font-size: 1.2rem;
   margin: 10px 0;
   line-height: 1.6;
+  text-justify:inter-ideograph;
 }
 
 .contact a {
-  color: #ffde59;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -40,7 +41,7 @@
   margin: 0 auto;
 }
 
-/* Responsive Styling */
+
 @media screen and (max-width: 768px) {
   .contact h2 {
     font-size: 2rem;
