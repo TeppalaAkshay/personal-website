@@ -3,7 +3,7 @@ import React from "react";
 
 const MyResume = () => {
     const handleClick = () => {
-        const pdfUrl = '/Akshay Kumar Teppala LinkedIn.pdf';
+        const pdfUrl = process.env.PUBLIC_URL + '/Akshay Kumar Teppala LinkedIn.pdf';
         window.open(pdfUrl, '_blank');
     };
 
