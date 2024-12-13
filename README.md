@@ -2,7 +2,7 @@
 
 Copyright © 2024 Akshay Kumar Teppala. All rights reserved.
 
-This repository contains proprietary code and is not open-source. Unauthorized use, modification, or distribution is prohibited. For permissions, contact akshaykumarteppala@gmail.com.
+This repository contains proprietary code and is not open-source. Unauthorized use, modification, or distribution is prohibited. For permissions, contact akshaykumarteppala@gmail.com
 
 
 
