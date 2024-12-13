@@ -1,3 +1,11 @@
+## License
+
+Copyright © 2024 Akshay Kumar Teppala. All rights reserved.
+
+This repository contains proprietary code and is not open-source. Unauthorized use, modification, or distribution is prohibited. For permissions, contact akshaykumarteppala@gmail.com.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
