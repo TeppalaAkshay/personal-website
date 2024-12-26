@@ -14,7 +14,6 @@ const About = () => {
         <div className="about-details">
           <p>🎓 Master's in CS at <a href="https://www.campbellsville.edu/" target="_blank" rel="noopener noreferrer">campbellsville University</a></p>
           <p>🛠️ Software Developer | 2+ years @ Creative Soft Technologies</p>
-          <p>🚀 Passionate about Distributed Systems & BigData Analytics</p>
           <p>🤝 Collaborator | Lifelong Learner | Problem Solver</p>
 
           <p>Here is a list of the technologies that I'm familiar with!</p>
@@ -30,6 +29,7 @@ const About = () => {
             <li>Jest</li>
             <li>Jenkins</li>
             <li>AWS</li>
+            <li>Azure</li>
             <li>Spring boot</li>
           </ul>
           <div className="resume"><MyResume/></div>
