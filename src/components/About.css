@@ -23,8 +23,7 @@
   .about h2 {
     font-size: 2rem;
     color: #64ffda;
-    margin-bottom: 20px;
-    margin-left: 150px;
+    text-align: center;
   }
   
   .about span {
@@ -47,7 +46,7 @@
   .about-details p {
     font-size: 1.2rem;
     margin: 10px 0;
-    color: #333;
+    color: black;
   }
   
   .about-details a {
@@ -64,7 +63,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 20px;
-    color: #333;
+    color: black;
     
   }
   
