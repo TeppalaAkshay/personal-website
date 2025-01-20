@@ -13,10 +13,9 @@ h1, h2, h3 {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 90%;
   text-decoration: none;
+  overflow: auto;
 }
 
 
@@ -67,6 +66,7 @@ section {
     font-size: 2rem;
   }
   .container {
-    width: 95%;
+    width: 100%;
+    height: auto;
   }
 }
