@@ -3,7 +3,7 @@ import React from "react";
 
 const MyResume = () => {
     const handleClick = () => {
-        const pdfUrl = process.env.PUBLIC_URL + '/Akshay Kumar Teppala    RES.pdf';
+        const pdfUrl = process.env.PUBLIC_URL + '/Akshay Kumar Teppala   new RES.pdf';
         window.open(pdfUrl, '_blank');
     };
 
